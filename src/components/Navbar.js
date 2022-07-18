@@ -8,19 +8,28 @@ function Navbar() {
         <Logo />
       </div>
       <div className="flex h-fit w-fit items-center justify-center gap-4 text-fem-50">
+        <button className="px-2 py-1 text-xl md:hidden">
+          <i class="fa-solid fa-bars"></i>
+        </button>
         <div className="">
           <a
             href=""
-            className="decoration-2 underline-offset-2 hover:underline"
+            className="decoration-[3px] underline-offset-2 hover:underline"
           >
             About
           </a>
           <div className=""></div>
         </div>
-        <a href="" className="decoration-2 underline-offset-2 hover:underline">
+        <a
+          href=""
+          className="decoration-[3px] underline-offset-2 hover:underline"
+        >
           Services
         </a>
-        <a href="" className="decoration-2 underline-offset-2 hover:underline">
+        <a
+          href=""
+          className="decoration-[3px] underline-offset-2 hover:underline"
+        >
           Project
         </a>
         <a

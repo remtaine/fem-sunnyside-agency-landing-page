@@ -7,7 +7,7 @@ import TestimonialThomas from "../images/image-thomas.jpg";
 
 function TestimonialItem(props) {
   return (
-    <article className="flex flex-col items-center justify-center gap-2">
+    <article className="mx-10 flex flex-col items-center justify-center gap-2 md:mx-2">
       <img src={props.imagePath} alt="" className="w-16 rounded-full" />
       <p className="my-2 mx-4 text-center text-sm font-normal text-fem-700 md:text-base">
         {props.children}
