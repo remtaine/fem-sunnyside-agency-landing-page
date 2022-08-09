@@ -28,41 +28,26 @@ function Footer() {
           </a>
         </li>
       </ul>
-      <ul className="flex gap-4">
-        <li className="">
-          <a
-            href="#"
-            className="text-fem-500 duration-400 ease-in-out hover:text-fem-50"
-          >
-            {/* <img src={LogoFB} alt="" className="" /> */}
-            <i className="fa-brands fa-facebook-square "></i>
+
+      <ul className="flex gap-4 text-2xl text-fem-500">
+        <li className="inline-block">
+          <a href="#" className="p-2 duration-400 hover:text-fem-50">
+            <i class="fa-brands fa-square-facebook inline-block"></i>
           </a>
         </li>
-        <li className="">
-          <a
-            href="#"
-            className="text-fem-500 duration-400 ease-in-out hover:text-fem-50"
-          >
-            {/* <img src={LogoIG} alt="" className="" /> */}
-            <i className="fa-brands fa-instagram"></i>
+        <li className="inline-block">
+          <a href="#" className="p-2 duration-400 hover:text-fem-50">
+            <i class="fa-brands fa-instagram"></i>
           </a>
         </li>
-        <li className="">
-          <a
-            href="#"
-            className="text-fem-500 duration-400 ease-in-out hover:text-fem-50"
-          >
-            {/* <img src={LogoTwitter} alt="" className="" /> */}
-            <i className="fa-brands fa-twitter"></i>
+        <li className="inline-block">
+          <a href="#" className="p-2 duration-400 hover:text-fem-50">
+            <i class="fa-brands fa-twitter"></i>
           </a>
         </li>
-        <li className="">
-          <a
-            href="#"
-            className="text-fem-500 duration-400 ease-in-out hover:text-fem-50"
-          >
-            {/* <img src={LogoPinterest} alt="" className="" /> */}
-            <i className="fa-brands fa-pinterest"></i>
+        <li className="inline-block">
+          <a href="#" className="p-2 duration-400 hover:text-fem-50">
+            <i class="fa-brands fa-pinterest"></i>
           </a>
         </li>
       </ul>
