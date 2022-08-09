@@ -1,14 +1,13 @@
 import React from "react";
-import HeaderImgDesktop from "images/desktop/image-header.jpg";
-import Dummy from "images/desktop/image-photography.jpg";
-import HeaderImgMobile from "images/mobile/image-header.jpg";
-import HeaderDesktop from "./HeaderDesktop";
+import HeaderDesktop from "./desktop/HeaderDesktop";
+import HeaderMobile from "./mobile/HeaderMobile";
 
 function Header() {
   return (
-    <div>
+    <header className="tracking-[0.3em]">
       <HeaderDesktop />
-    </div>
+      <HeaderMobile />
+    </header>
   );
 }
 
