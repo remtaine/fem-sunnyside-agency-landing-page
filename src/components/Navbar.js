@@ -3,7 +3,7 @@ import Logo from "./ui/Logo";
 import UnderlineLink from "./ui/UnderlineLink";
 
 function Navbar() {
-  const [isMenuOpen, setIsMenuOpen] = useState(true);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const toggleMenuOpen = function () {
     setIsMenuOpen(!isMenuOpen);
   };
@@ -26,25 +26,28 @@ function Navbar() {
         {/* TODO collapsible menu buttons */}
         <div
           className={
-            "fixed top-20 right-0 z-50 mr-5 w-fit flex-col items-center justify-center gap-4 bg-fem-50 px-20 py-10 font-barlow font-normal text-fem-700 shadow md:relative md:top-0 md:flex md:flex-row md:bg-transparent md:p-0 md:text-inherit md:shadow-none " +
+            "absolute top-16 right-0 z-50 mr-[0.6rem] flex-col md:relative md:top-0 md:flex " +
             (isMenuOpen ? "hidden" : "flex")
           }
         >
-          <UnderlineLink link="#" bgColor="bg-fem-100">
-            About
-          </UnderlineLink>
-          <UnderlineLink link="#" bgColor="bg-fem-200">
-            Services
-          </UnderlineLink>
-          <UnderlineLink link="#" bgColor="bg-fem-400">
-            Project
-          </UnderlineLink>
-          <a
-            href="#"
-            className="rounded-3xl bg-fem-200 py-2 px-3 text-fem-600 duration-400 hover:bg-[#6ECEFF] hover:text-fem-50 md:bg-fem-50"
-          >
-            Contact
-          </a>
+          <div className=" ml-auto h-0 w-0 border-[0.9rem] border-solid border-fem-50 border-t-transparent border-l-transparent md:hidden"></div>
+          <div className="flex  w-fit flex-col items-center justify-center gap-4 bg-fem-50 px-20 py-10 font-barlow font-normal text-fem-700 shadow md:relative  md:flex md:flex-row md:bg-transparent md:p-0 md:text-inherit md:shadow-none ">
+            <UnderlineLink link="#" bgColor="bg-fem-100">
+              About
+            </UnderlineLink>
+            <UnderlineLink link="#" bgColor="bg-fem-200">
+              Services
+            </UnderlineLink>
+            <UnderlineLink link="#" bgColor="bg-fem-400">
+              Project
+            </UnderlineLink>
+            <a
+              href="#"
+              className="rounded-3xl bg-fem-200 py-2 px-3 text-fem-600 duration-400 hover:bg-[#6ECEFF] hover:text-fem-50 md:bg-fem-50"
+            >
+              Contact
+            </a>
+          </div>
         </div>
       </div>
     </nav>
