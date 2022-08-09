@@ -1,6 +1,6 @@
 import React from "react";
-import ImageGalleryDesktop from "./ImageGalleryDesktop";
-import ImageGalleryMobile from "./ImageGalleryMobile";
+import ImageGalleryDesktop from "./desktop/ImageGalleryDesktop";
+import ImageGalleryMobile from "./mobile/ImageGalleryMobile";
 
 function ImageGallery() {
   return (
