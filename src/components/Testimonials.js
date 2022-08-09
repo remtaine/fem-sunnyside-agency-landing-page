@@ -10,7 +10,7 @@ function Testimonials() {
       <h2 className="text-center font-fraunces text-lg uppercase tracking-[0.15em] text-fem-900">
         Client Testimonials
       </h2>
-      <div className="my-12 flex flex-col items-center justify-center gap-12 md:flex-row">
+      <div className="my-12 flex flex-col items-start justify-center gap-12 md:flex-row">
         <TestimonialItem
           imagePath={TestimonialEmily}
           name="Emily R."
@@ -25,7 +25,7 @@ function Testimonials() {
           title="Chief Operating Officer"
         >
           Sunnyside’s enthusiasm coupled with their keen interest in our brand’s
-          success made it a satisfying and enjoyable experience
+          success made it a satisfying and enjoyable experience.
         </TestimonialItem>
         <TestimonialItem
           imagePath={TestimonialJennie}
