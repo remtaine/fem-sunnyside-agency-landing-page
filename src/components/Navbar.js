@@ -3,7 +3,7 @@ import Logo from "./ui/Logo";
 import UnderlineLink from "./ui/UnderlineLink";
 
 function Navbar() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(true);
   const toggleMenuOpen = function () {
     setIsMenuOpen(!isMenuOpen);
   };
