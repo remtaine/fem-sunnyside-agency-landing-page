@@ -1,3 +1,4 @@
+import Description from "components/Description";
 import Header from "components/Header";
 import React from "react";
 import Footer from "./components/Footer";
@@ -7,10 +8,11 @@ import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
-    <div className="App max-w-screen min-h-screen bg-fem-50 font-barlow font-semibold selection:bg-fem-600 selection:text-fem-50">
+    <div className="App max-w-screen min-h-screen scroll-smooth bg-fem-50 font-barlow font-semibold selection:bg-fem-600 selection:text-fem-50">
       <Navbar />
       <Header />
       <main className="">
+        <Description />
         <Testimonials />
         <ImageGallery />
       </main>
