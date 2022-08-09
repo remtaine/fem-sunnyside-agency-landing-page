@@ -7,7 +7,7 @@ function DescriptionImageOnly(props) {
       <source media="(max-width: 1024px)" srcSet={props.imgMobile} />
       <img
         src={props.imgDesktop}
-        alt="description image"
+        alt="description"
         className="h-full w-full object-cover"
       />
     </picture>
