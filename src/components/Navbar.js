@@ -10,7 +10,10 @@ function Navbar() {
 
   return (
     <nav className="absolute flex h-fit w-full items-center justify-between p-3 font-semibold">
-      <a href="" className="scale-125 pl-4 duration-400 hover:scale-[135%]">
+      <a
+        href="#placeholder"
+        className="scale-125 pl-4 duration-400 hover:scale-[135%]"
+      >
         <Logo />
       </a>
       <div className="relative flex h-fit w-fit items-center justify-center gap-4 text-fem-50">
@@ -42,7 +45,7 @@ function Navbar() {
               Project
             </UnderlineLink>
             <a
-              href="#"
+              href="#placeholder"
               className="rounded-3xl bg-fem-200 py-2 px-3 text-fem-600 duration-400 hover:bg-[#6ECEFF] hover:text-fem-50 md:bg-fem-50"
             >
               Contact
