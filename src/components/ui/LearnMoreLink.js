@@ -10,7 +10,7 @@ function LearnMoreLink(props) {
           props.color
         }
       ></div>
-      <a href="#" className="z-50 py-2 font-fraunces uppercase">
+      <a href="#placeholder" className="z-50 py-2 font-fraunces uppercase">
         Learn More
       </a>
     </div>

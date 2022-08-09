@@ -1,9 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import TestimonialEmily from "../images/image-emily.jpg";
-import TestimonialJennie from "../images/image-jennie.jpg";
-import TestimonialThomas from "../images/image-thomas.jpg";
+// import TestimonialEmily from "../images/image-emily.jpg";
+// import TestimonialJennie from "../images/image-jennie.jpg";
+// import TestimonialThomas from "../images/image-thomas.jpg";
 
 function TestimonialItem(props) {
   return (
